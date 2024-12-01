@@ -10,6 +10,7 @@ public class Person {
 	}
 
 	public void getDetails() {
-		System.out.println("Nombre completo: " + name + " " + surname);
-	}
+		System.out.println("Nombre completo: " + this.name + " " + this.surname);
+	}//Nas clases hijas, sobrescribiremos este metodo, e añadiremos as diferentes propiedades que as compoñen.
+	//(area para Teacher, squad para PoliceOfficer e specialization para Doctor) a maiores do name , surname.
 }

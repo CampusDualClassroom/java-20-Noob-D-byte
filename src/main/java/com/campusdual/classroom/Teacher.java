@@ -8,4 +8,8 @@ public class Teacher extends Person {
 		super(name, surname);
 		this.area = area;
 	}
+	@Override
+	public void getDetails() {
+		System.out.println("Teacher: " + this.name + " " + this.surname + ", especialista en: " + this.area);
+	}
 }
