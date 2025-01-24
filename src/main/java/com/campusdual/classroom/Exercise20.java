@@ -32,8 +32,11 @@ public class Exercise20 {
     }
 
     public static void main(String[] args) {
-        List<Person> personList = getPeopleList();//chama a getPeopleList para obter a personList
-        showPeopleDetails(personList);//chama a showPeopleDetails para que mostre os detalles das persoas na personList.
+        //List<Person> personList = getPeopleList();//chama a getPeopleList para obter a personList
+        //showPeopleDetails(personList);//chama a showPeopleDetails para que mostre os detalles das persoas na personList.
+
+        //Refactorizado
+        showPeopleDetails(getPeopleList());
     }
 
 
